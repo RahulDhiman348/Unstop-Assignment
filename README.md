@@ -1,0 +1,14 @@
+This is a Train Ticket Booking Application.
+
+Tech stack Used: React Js
+
+Hosted URL: https://unstop-assignment-rahuldhiman.netlify.app/
+
+Algorithm behind ticket booking is:
+1. There are 80 seats in a coach of a train with only 7 seats in a row and last row of only 3 seats.
+2. One person can reserve up to 7 seats at a time.
+3. If person is reserving seats, the priority will be to book them in one row.
+4. If seats are not available in one row then the booking should be done in such a way that the nearby
+seats are booked.
+5. User can book as many tickets as s/he wants until the coach is full.
+6. The data for booked seats is being stored in an array suing useRef Hook.

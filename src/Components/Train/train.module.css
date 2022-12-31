@@ -1,0 +1,23 @@
+.train {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.train img {
+    height: 300px;
+    width: 90%;
+}
+
+
+@media(max-width: 600px) {
+    .train {
+        height: 100px;
+        width: 300px;
+    }
+
+    .train img {
+        height: 100px;
+        width: 100%;
+    }
+}

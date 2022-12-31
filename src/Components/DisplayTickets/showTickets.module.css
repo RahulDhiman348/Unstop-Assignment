@@ -1,0 +1,76 @@
+.wrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seatContainer {
+  background-color: rgba(0, 255, 255, 0.637);
+  height: 75%;
+  margin: 30px;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.seatContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.emptySeat,
+.bookedSeat,
+.selectedSeat {
+  height: 30px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 50px;
+  border: 1px solid red;
+  color: #1b648b;
+}
+
+.emptySeat {
+  background-color: white;
+}
+
+.bookedSeat {
+  background-color: rgba(184, 189, 194, 0.932);
+  border: 1px solid rgba(184, 189, 194, 0.897);
+  color: white;
+}
+
+.selectedSeat {
+  background-color: rgb(250, 100, 0);
+  color: #115173;
+}
+
+.wrapper button {
+  padding: 7px 15px;
+  font-size: 25px;
+  border-radius: 50px;
+  border: 2px solid red;
+  color: black;
+  cursor: pointer;
+}
+
+.wrapper button:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .emptySeat,
+  .bookedSeat,
+  .selectedSeat {
+    height: 25px;
+    width: 30px;
+    font-size: 10px;
+  }
+}
