@@ -12,3 +12,5 @@ Algorithm behind ticket booking is:
 seats are booked.
 5. User can book as many tickets as s/he wants until the coach is full.
 6. The data for booked seats is being stored in an array suing useRef Hook.
+7. Gray colored seats are already occupied and white are available and orange/red color is seats being booked at click.
+
